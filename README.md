@@ -1,3 +1,9 @@
+## In case you haven't already done so:
+
+```Ocaml
+opam install merlin ocp-indent dune utop
+```
+
 ## Example usage in the terminal:
 
 1. Go to the Archimedes folder.
