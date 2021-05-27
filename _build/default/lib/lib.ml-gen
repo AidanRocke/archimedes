@@ -1,0 +1,10 @@
+(** @canonical Lib.Archimedes *)
+module Archimedes = Lib__Archimedes
+
+
+(** @canonical Lib.Euler_constant *)
+module Euler_constant = Lib__Euler_constant
+
+
+(** @canonical Lib.Zahlen *)
+module Zahlen = Lib__Zahlen
