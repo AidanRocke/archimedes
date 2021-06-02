@@ -6,5 +6,21 @@ module Archimedes = Lib__Archimedes
 module Euler_constant = Lib__Euler_constant
 
 
+(** @canonical Lib.Euler_mascheroni *)
+module Euler_mascheroni = Lib__Euler_mascheroni
+
+
+(** @canonical Lib.Glaisher_kinkelin *)
+module Glaisher_kinkelin = Lib__Glaisher_kinkelin
+
+
+(** @canonical Lib.Khinchin *)
+module Khinchin = Lib__Khinchin
+
+
+(** @canonical Lib.Meissel_mertens *)
+module Meissel_mertens = Lib__Meissel_mertens
+
+
 (** @canonical Lib.Zahlen *)
 module Zahlen = Lib__Zahlen

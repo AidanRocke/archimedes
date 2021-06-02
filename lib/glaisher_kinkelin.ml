@@ -1,16 +1,6 @@
 (*The logarithm of the Glaisher-Kinkelin constant: https://mathworld.wolfram.com/Glaisher-KinkelinConstant.html*)
-
-let n_choose_k n k =
-  let num = float_of_int (Zahlen.factorial n) in
-  let denom = Zahlen.factorial (n-k) * Zahlen.factorial (k) in
-
-  let nck = num  /. (float_of_int denom) in
-
-nck
-;;
-
 let inner_loop n k =
-  let inner = (-1.)**(float_of_int (k+1)) *. (n_choose_k n k) *.
+  let inner = (-1.)**(float_of_int (k+1)) *. (Zahlen.n_choose_k n k) *.
               (float_of_int (k + 1))**2. *. log(float_of_int (k + 1)) in
 
 inner;;

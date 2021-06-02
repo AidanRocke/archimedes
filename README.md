@@ -1,3 +1,18 @@
+## Constants that are included:
+
+1. [Archimedes constant, also known as Pi.](https://mathworld.wolfram.com/Pi.html)
+
+2. [Euler's constant, also known as the natural number.](https://mathworld.wolfram.com/e.html)
+
+3. [Meissel-Mertens constant](https://mathworld.wolfram.com/MertensConstant.html)
+
+4. [Khinchin's constant](https://mathworld.wolfram.com/KhinchinsConstant.html)
+
+5. [Glaisher-Kinkelin constant](https://mathworld.wolfram.com/Glaisher-KinkelinConstant.html)
+
+6. [Euler-Mascheroni constant](https://mathworld.wolfram.com/Euler-MascheroniConstant.html)
+
+
 ## In case you haven't already done so:
 
 ```Ocaml
